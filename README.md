@@ -9,4 +9,4 @@ A Python Keylogger for Windows is created using the PyHook and Pythoncom modules
 python3 keylog.py
 ```
 3. The keylogger will begin capturing keyboard input and saving the keystrokes in the "output.txt" file in the same directory.
-4. To stop the keylogger, press Ctrl + E or close the terminal window.
+4. To stop the keylogger, press Ctrl + C or close the terminal window.
