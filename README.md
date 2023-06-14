@@ -1,4 +1,4 @@
-# Keylogger
+# KeyLogger
 A Python Keylogger for Windows is created using the PyHook and Pythoncom modules.
 
 ## Instructions:
